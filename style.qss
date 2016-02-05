@@ -1,0 +1,60 @@
+#launchy {
+	border: 1px solid #3f3f3f;
+	border-radius: 6px;
+	/*background-color: rgba(10,10,10,90%);*/
+	background: rgb(10,10,10);
+	qproperty-geometry: rect(0 0 300 40);
+}
+
+#input {
+	font:  16px "Tahoma";
+	border-width: 0px;
+	background-color: rgba(0,0,0,0%);
+	border: 0px solid #000000;
+	color: #888888;
+	qproperty-alignment: AlignLeft;
+	qproperty-geometry: rect(10 10 250 20);
+}
+
+#output {
+	font:  10px "Tahoma";
+	text-align: right;
+	color: #666666;
+	qproperty-alignment: AlignRight;
+	qproperty-geometry: rect(55 22 200 15);
+}
+
+#outputIcon {
+	qproperty-geometry: rect(260 4 30 30);
+}
+
+QWidget#alternatives {
+	color:#3c3c3c;
+	font:  12px Tahoma, Sans, Verdana, Arial;
+	qproperty-geometry: rect(0 36 300 200);
+	border: 1px solid #3f3f3f;
+	padding: 0px 1px 1px 1px;
+	border-top: 0;
+	selection-color: white;
+	selection-background-color: #333333;
+	alternate-background-color: rgba(0,0,0,50%);
+	background: rgb(10,10,10);
+}
+
+QScrollBar{
+	width: 0;
+}
+
+#alternativesPath{
+	width: 0;
+	color: rgba(0,0,0,0%);
+}
+
+QWidget#alternatives::item{
+	padding: 10px;
+}
+
+QWidget#alternatives::item:selected{
+	color: #dddddd;
+	background: #333333;
+}

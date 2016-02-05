@@ -1,0 +1,7 @@
+Skin Title: Dark Minimal
+
+Author: Circuit Creature
+
+Version: 1.0
+
+Date: 02/04/2016
